@@ -42,18 +42,28 @@ header a{
      color: #191c03; 
 }
 
-header li{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 22px;
+.navbar-list {
+    list-style: none;
+    font-size: 1.5rem;
 }
 
-header li:first-child{
-    margin-left: 0px;
+.navbar-item {
+    display: inline-block;
 }
 
-header li:last-child{
-    margin-right: 0px;
+.navbar-link:visited,
+.navbar-link:link {
+    text-decoration: none;
+    color: #050505;
+    padding: 1.5rem;
+    transition: all .2s ease;
+}
+
+.navbar-link:hover {
+    background-color: #32c9e6;
+    color: honeydew;
+    border-radius: 200px;
+    padding: 1rem;
 }
 
 @media (max-width: 700px){
@@ -88,7 +98,7 @@ header li:last-child{
 }
 
 .hero_o .btn{
-    background-color: #fff;
+    background-color: #32c9e6;
     border-radius: 4px;
     color: #191c03;
     padding: 20px 50px 20px 50px;
@@ -147,24 +157,37 @@ header li:last-child{
 .conheca_a_pousada .grid li{
     height: 350px; 
     padding: 20px;
-    border-radius: 3rem;
+    border-radius: 4rem 0 4rem 0;
     background-clip: content-box;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
-.conheca_a_pousada .grid  .small{
+.conheca_a_pousada .grid  .image1{
     flex-basis: 50%;
 }
-.conheca_a_pousada .grid  .large{
+.conheca_a_pousada .grid  .image2{
+    flex-basis: 50%;
+}
+.conheca_a_pousada .grid  .image3{
+    flex-basis: 50%;
+}
+.conheca_a_pousada .grid  .image4{
     flex-basis: 50%;
 }
 
 @media (max-width: 700px){
-    .conheca_a_pousada .grid  .small{
+    .conheca_a_pousada .grid  .image1{
         flex-basis: 100%;
     }
-    .conheca_a_pousada .grid  .large{
+    .conheca_a_pousada .grid  .image2{
+        flex-basis: 100%;
+    }
+    .conheca_a_pousada .grid  .image3{
+        flex-basis: 100%;
+    }
+    .conheca_a_pousada .grid  .image4{
         flex-basis: 100%;
     }
 }
@@ -173,7 +196,7 @@ header li:last-child{
 /*Características*/
 
 .caracteristicas{
-    background-color:#30e8f3;
+    background-color:#32c9e6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,14 +215,14 @@ header li:last-child{
     text-align: center;
     font-size:  3rem;
     margin-bottom: 35px;
-    color: #fff;
+    color: black;
 
 }
 .caracteristicas p{
     text-align: center;
     max-width: 700px;
     margin-bottom: 35px;
-    color: #fff;
+    color: black;
     font-size: 1.7rem;
 }    
 
@@ -222,12 +245,12 @@ header li:last-child{
 
 .caracteristicas .grid h4{
     font-size: 1.5rem;
-    color: white;
+    color: black;
     margin-bottom: 30px;
 }
 
 .caracteristicas .grid p{
-    color: #fff;
+    color: black;
     text-align: justify;
 }
 
@@ -254,14 +277,14 @@ header li:last-child{
 
 .newsletter h3{
     font-size: 2.5rem;
-    color: #30e8f3;
+    color: #32c9e6;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .newsletter p{
     text-align: center;
-    color: #30e8f3;
+    color: black;
     max-width: 800px;
     margin-bottom: 35px;
     font-size: 1.4rem;
@@ -271,7 +294,7 @@ header li:last-child{
 .newsletter hr{
     width: 200px;
     height: 2px;
-    background-color: #30e8f3;
+    background-color: #32c9e6;
     margin-bottom: 70px;
     border: none;
 }
@@ -287,15 +310,15 @@ header li:last-child{
 
 .newsletter form input{
     padding: 20px;
-    border-radius: 4px;
-    border: 1px solid #30e8f3;
+    border-radius: 1.5rem 0 1.5rem 0;
+    border: 1px solid #32c9e6;
     margin-right: 15px;
     flex: 1;
 }
 
 .newsletter form button{
     padding: 20px;
-    background-color: #30e8f3;
+    background-color: #32c9e6;
     color: #fff;
     text-transform: uppercase;
     border: none;
@@ -338,4 +361,5 @@ footer ul li a {
 footer p {
     color: white;
     text-align: center;
+    font-size: 1.4rem;
 }

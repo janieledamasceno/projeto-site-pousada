@@ -15,11 +15,19 @@
     <header class="container">
         <a href="#"><img src="img/brisa-da-mare-logo.png" alt="logo"></a>
         <nav>
-            <ul>
-                <li><a href="">Home </a></li>
-                <li><a href="">Sobre </a></li>
-                <li><a href="">Reservas </a></li>
-                <li><a href="">Contato </a></li>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#sobre" class="navbar-link">Sobre</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#reservas" class="navbar-link">Reservas</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contato" class="navbar-link">Contato</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -40,10 +48,10 @@
         <hr>
 
         <ul class="grid">
-            <li class="small" style="background-image: url('img/itacimirim-01.jpg');"></li>
-            <li class="large" style="background-image: url('/img/itacimirim-02.jpg');"></li>
-            <li class="large" style="background-image: url('img/itacimirim-03.jpg');"></li>
-            <li class="small" style="background-image: url('img/itacimirim-04.jpg');"></li>
+            <li class="image1" style="background-image: url('img/itacimirim-01.jpg');"></li>
+            <li class="image2" style="background-image: url('/img/pousada02.jpg');"></li>
+            <li class="image3" style="background-image: url('img/itacimirim-03.jpg');"></li>
+            <li class="image4" style="background-image: url('img/itacimirim-04.jpg');"></li>
         </ul>
 
     </section>
@@ -51,29 +59,32 @@
     <section class="caracteristicas">
         
         <h1>Sobre a Pousada Brisa da Maré!</h1>
-        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nisi natus quaerat, nobis laudantium
-            autem excepturi earum assumenda consequuntur quibusdam?</p>
+        <p> A Pousada Brisa da Maré, localizada na Praia de Itacimirim, a cerca de 70km da capital Salvador, é um local aconchegante, onde você pode curtir com a sua família, amigos ou até mesmo aproveitando a própria companhia. Desde 2000 oferecendo ótimos serviços, sendo palco para diversos momentos marcantes da vida dos nossos hóspedes...</p>
         
             <hr>
 
         <ul class="grid">
             <li>
-                <i class="fas fa-location-arrow"></i>
+                <i class="fa fa-location-arrow"></i>
                 <h4>Localização</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam repellendus id! Expedita,
-                    temporibus veniam ipsa totam minima aliquid eligendi placeat provident.</p>
+                <section class="localization">
+                    <div class="localization-content">
+                        <div class="left">
+                            <div class="localization-info">
+                                <h1 class="maps-title"></h1>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13474.651830554289!2d-38.05556447816633!3d-12.633833375050315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71653f45dc6b1ef%3A0x2991192bf8d6d674!2sPraia%20de%20Itacimirim!5e1!3m2!1spt-BR!2sbr!4v1647724244101!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+                        </div>
             </li>
             <li>
-                <i class="fas fa-gift"></i>
+                <i class="fa fa-gift"></i>
                 <h4>Pacotes e Ofertas</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam repellendus id! Expedita,
-                    temporibus veniam ipsa totam minima aliquid eligendi placeat provident.</p>
+                <a href="#"><img src="img/pousada-promo.png" alt="ofertas e promos" width="400" height="400"></a>
             </li>
             <li>
-                <i class="fas fa-home"></i>
+                <i class="fa fa-home"></i>
                 <h4>Acomodações</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam repellendus id! Expedita,
-                    temporibus veniam ipsa totam minima aliquid eligendi placeat provident.</p>
+               <a href="#"><img src="img/pousada-acomod.png" alt="acomodações" width="400" height="400"></a>
             </li>
         </ul>
 
@@ -98,7 +109,7 @@
 
         <ul>
             <li><a href="#"><i class="fab fa-facebook"></i> </a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i> </a></li>
             <li><a href="#"><i class="fab fa-snapchat"></i> </a></li>
             <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
         </ul>
