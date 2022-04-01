@@ -232,7 +232,7 @@ header a{
 
 }
 .caracteristicas .grid li{
-   padding:0px 30px 0px 30px;
+   padding:10px 10px 10px 10px;
    text-align: center;
 
 }
@@ -247,11 +247,6 @@ header a{
     font-size: 1.5rem;
     color: black;
     margin-bottom: 30px;
-}
-
-.caracteristicas .grid p{
-    color: black;
-    text-align: justify;
 }
 
 @media (max-width: 850px){
