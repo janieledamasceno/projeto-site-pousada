@@ -6,5 +6,6 @@ Criação de um site para uma Pousada, com o objetivo de exercitar o uso do HTML
 * Estilizando textos e imagens utilizando o CSS3;
 
 ## O que pretendo desenvolver nesse projeto:
-* Aplicar a responsividade por meio do JavaScript;
-* Aprimorar meus conhecimentos em HTML5 e CSS3;
+* Implementar itens por meio do JavaScript;
+* Aprimorar meus conhecimentos em HTML5;
+* Brincar com os estilos através do CSS.
